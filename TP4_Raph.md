@@ -29,11 +29,25 @@ FROM orders
 group by status
 order by Nb_cmd DESC;</pre>
 ## Exo 7
-<pre></pre>
+<pre>SELECT
+	is_available,
+	count(*) AS Nb_itm
+FROM products
+group by is_available;</pre>
 ## Exo 8
-<pre></pre>
+<pre>SELECT
+	country,
+	count(*) AS Nb_adresse
+FROM addresses
+group by country
+order by country;</pre>
 ## Exo 9
-<pre></pre>
+<pre>SELECT
+	product_id,
+	count(*) AS Nb_reviews
+FROM reviews
+group by product_id
+order by nb_reviews desc;</pre>
 ## Exo 10
 <pre></pre>
 ## Exo 11
