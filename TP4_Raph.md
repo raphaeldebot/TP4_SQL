@@ -22,7 +22,12 @@ FROM reviews;</pre>
 	sum(quantity) AS Quantité_tot
 FROM order_items;</pre>
 ## Exo 6
-<pre></pre>
+<pre>SELECT
+	status,
+	count(*) AS Nb_cmd
+FROM orders
+group by status
+order by Nb_cmd DESC;</pre>
 ## Exo 7
 <pre></pre>
 ## Exo 8
