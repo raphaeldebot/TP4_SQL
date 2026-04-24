@@ -9,7 +9,10 @@ count(*) AS produits_dispo
 from products
 WHERE is_available = 1;</pre>
 ## Exo 3
-<pre></pre>
+<pre>SELECT 
+    MIN(price) AS prix_minimum,
+    MAX(price) AS prix_maximum
+FROM products;</pre>
 ## Exo 4
 <pre></pre>
 ## Exo 5
