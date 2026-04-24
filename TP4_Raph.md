@@ -56,7 +56,12 @@ FROM order_items
 group by product_id
 order by Nb_Produits desc;</pre>
 ## Exo 11
-<pre></pre>
+<pre>SELECT
+	order_id,
+	sum(quantity * unit_price) AS total_commande
+FROM order_items
+group by order_id
+order by total_commande desc;</pre>
 ## Exo 12
 <pre></pre>
 ## Exo 13
