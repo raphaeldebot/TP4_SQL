@@ -14,7 +14,9 @@ WHERE is_available = 1;</pre>
     MAX(price) AS prix_maximum
 FROM products;</pre>
 ## Exo 4
-<pre></pre>
+<pre>SELECT 
+    AVG(rating) AS note_moyenne
+FROM reviews;</pre>
 ## Exo 5
 <pre></pre>
 ## Exo 6
