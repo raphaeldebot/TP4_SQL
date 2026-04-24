@@ -49,7 +49,12 @@ FROM reviews
 group by product_id
 order by nb_reviews desc;</pre>
 ## Exo 10
-<pre></pre>
+<pre>SELECT
+	product_id,
+	sum(quantity) AS Nb_Produits
+FROM order_items
+group by product_id
+order by Nb_Produits desc;</pre>
 ## Exo 11
 <pre></pre>
 ## Exo 12
