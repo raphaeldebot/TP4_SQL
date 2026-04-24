@@ -18,7 +18,9 @@ FROM products;</pre>
     AVG(rating) AS note_moyenne
 FROM reviews;</pre>
 ## Exo 5
-<pre></pre>
+<pre>SELECT 
+	sum(quantity) AS Quantité_tot
+FROM order_items;</pre>
 ## Exo 6
 <pre></pre>
 ## Exo 7
